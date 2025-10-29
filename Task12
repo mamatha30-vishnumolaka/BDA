@@ -1,4 +1,4 @@
-Task:12            Date:
+Task:12            Date:15/10/2025
 Program:
 import pymongo 
 mongo_uri = "mongodb://localhost:27017/"   
