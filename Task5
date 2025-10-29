@@ -9,7 +9,7 @@ scala> val mapdata = splitdata.map(word => (word,1));
 scala> mapdata.collect;
 scala> val reducedata = mapdata.reduceByKey(_+_);
 scala> reducedata.collect; 
-task:4.2
+task:5.2
 Program:
 import findspark
 findspark.init()
